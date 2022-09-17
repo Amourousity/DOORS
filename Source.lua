@@ -60,7 +60,7 @@ local function PressButton(Button)
 	end)
 end
 if LatestRoom.Value == 0 then
-	PressButton(WaitForSequence(MainUI,"ItemShop","Confirm"))
+	PressButton(WaitForSequence(MainUI,"ItemShop","Confirm")
 	Ping(2)
 	fireproximityprompt(WaitForSequence(CurrentRooms,"0","StarterElevator","Model","Model","SkipButton","SkipPrompt"))
 	Ping(10)
@@ -123,7 +123,7 @@ for RoomNumber = LatestRoom.Value,100 do
 		Wait()
 	end
 end
-if true then
+if ... then
 	local Breaker = WaitForSequence(CurrentRooms,"100","ElevatorBreaker")
 	Position = Breaker:WaitForChild"Door".Position
 	Ping(4)
@@ -137,7 +137,7 @@ if true then
 	Ping(2)
 	PressButton(MainUI:WaitForChild"MinigameBackout")
 	Wait(.5)
-	Position = WaitForSequence(CurentRooms,"100","ElevatorCar","CollisionFloor").Position
+	Position = WaitForSequence(CurrentRooms,"100","ElevatorCar","CollisionFloor").Position
 	VLevel,Touchable = 5,true
 	Ping(4)
 	Destroy(TeleportLoop)
