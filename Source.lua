@@ -124,7 +124,7 @@ for RoomNumber = LatestRoom.Value,100 do
 	end
 end
 if ... then
-	local Breaker = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorBreaker"
+	local Breaker = WaitForSequence(CurrentRooms,"100","ElevatorBreaker")
 	Position = Breaker:WaitForChild"Door".Position
 	Ping(4)
 	local Continue
@@ -137,7 +137,7 @@ if ... then
 	Ping(2)
 	PressButton(MainUI:WaitForChild"MinigameBackout")
 	Wait(.5)
-	Position = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorCar":WaitForChild"CollisionFloor".Position
+	Position = WaitForSequence(CurentRooms,"100","ElevatorCar","CollisionFloor").Position
 	VLevel,Touchable = 5,true
 	Ping(4)
 	Destroy(TeleportLoop)
@@ -145,7 +145,7 @@ if ... then
 end
 local Statistics = Bricks:WaitForChild"Statistics"
 Statistics:FireServer()
-table.foreach(Wait(Statistics.OnClientEvent),print)
+Wait(Statistics.OnClientEvent)
 Owner:Kick()
 Service"Gui":ClearError()
 task.delay(2,pcall,Service"Teleport".Teleport,Service"Teleport",game.PlaceId)
