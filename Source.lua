@@ -48,7 +48,7 @@ local function Ping(Return)
 		end
 	end
 end
-local MainUI = Owner:WaitForChild"PlayerGui":WaitForChild"MainUI"
+local MainUI = WaitForSequence(Owner,"PlayerGui","MainUI")
 local function PressButton(Button)
 	task.spawn(function()
 		local Connections = {}
@@ -60,9 +60,9 @@ local function PressButton(Button)
 	end)
 end
 if LatestRoom.Value == 0 then
-	PressButton(MainUI:WaitForChild"ItemShop":WaitForChild"Confirm")
+	PressButton(WaitForSequence(MainUI,"ItemShop","Confirm")
 	Ping(2)
-	fireproximityprompt(CurrentRooms:WaitForChild"0":WaitForChild"StarterElevator":WaitForChild"Model":WaitForChild"Model":WaitForChild"SkipButton":WaitForChild"SkipPrompt")
+	fireproximityprompt(WaitForSequence(CurrentRooms,"0","StarterElevator","Model","Model","SkipButton","SkipPrompt"))
 	Ping(10)
 end
 local Bricks = Service"ReplicatedStorage":WaitForChild"Bricks"
@@ -123,24 +123,26 @@ for RoomNumber = LatestRoom.Value,100 do
 		Wait()
 	end
 end
-local Breaker = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorBreaker"
-Position = Breaker:WaitForChild"Door".Position
-Ping(4)
-local Continue
-while not Continue do
-	fireproximityprompt(Breaker:WaitForChild"ActivateEventPrompt")
-	Continue = WaitForSignal(Bricks:WaitForChild"EngageMinigame".OnClientEvent,.2)
+if ... then
+	local Breaker = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorBreaker"
+	Position = Breaker:WaitForChild"Door".Position
+	Ping(4)
+	local Continue
+	while not Continue do
+		fireproximityprompt(Breaker:WaitForChild"ActivateEventPrompt")
+		Continue = WaitForSignal(Bricks:WaitForChild"EngageMinigame".OnClientEvent,.2)
+	end
+	Wait(38)
+	Bricks:WaitForChild"EBF":FireServer()
+	Ping(2)
+	PressButton(MainUI:WaitForChild"MinigameBackout")
+	Wait(.5)
+	Position = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorCar":WaitForChild"CollisionFloor".Position
+	VLevel,Touchable = 5,true
+	Ping(4)
+	Destroy(TeleportLoop)
+	Ping(10)
 end
-Wait(38)
-Bricks:WaitForChild"EBF":FireServer()
-Ping(2)
-PressButton(MainUI:WaitForChild"MinigameBackout")
-Wait(.5)
-Position = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorCar":WaitForChild"CollisionFloor".Position
-VLevel,Touchable = 5,true
-Ping(4)
-Destroy(TeleportLoop)
-Ping(10)
 local Statistics = Bricks:WaitForChild"Statistics"
 Statistics:FireServer()
 table.foreach(Wait(Statistics.OnClientEvent),print)
