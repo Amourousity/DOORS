@@ -1,1 +1,149 @@
---[[a650d95dcda67172cb89e7719aaac813941ca062b176d687d0975b99fe924a28/d3745b997c18886f578c4d8497862ae2‮]]local _=select local w=unpack local h=error local i=getfenv local n=assert local o=tonumber local g=pairs local f=pcall local q=math.huge local d=string.char local c=string.match local m=string.gmatch local u=string.sub local e=string.rep local l=string.gsub local v=string.split local b=string.byte local r=table.insert local j=table.concat local t=next local p local function s(c,b)for _,d in g(c)do if d[2]>=b then d[0B11]=d[0B_1_][d[0_B10]]d[0_x1_]=d d[0_X2]=3 c[_]=nil end end end local function k(b,c,_)local d=b[c]if not d then d={[0X2]=c,[0b1_]=_}b[c]=d end return d end local function x(...)return _('#',...),{...}end local function g(h)local d=h[2]local _=h[3]local f=h[4]local e=h[5]local b=h[1]local c=b[1]local b=b[2]local i=-1 local g={}local l=h[6]local h=1 while true do local m=d[h]local j=m[0Xa]h+=1 if j<0x_26_ then if j<0X13_ then if 9>j then if 0X_4_>j then if j<2 then if 0b_1_>j then local b=m[0x_7]local _=m[0B11]l[b+1]=l[_]l[b]=l[_][m[0_x8_]]else local _=m[0b111_]for b=1,m[3]do l[_+b]=c[b]end end elseif j>2 then l[m[8_]][l[m[0_b_11_1]]]=l[m[3]]else l[m[0_x_3]]=l[m[0X8]][m[7]]end elseif j>0X_4 then if j<0x7_ then if 0x6>j then s(g,m[7_])else l[m[0_B1_000]]=l[m[0_X7]]*l[m[0_b11]]end elseif 7<j then l[m[0x8_]]=m[0X7]-m[0_X3]else l[m[0b1_0_0_0]][m[0B111_]]=m[0b1_1]end else local _=m[0_B_1_1_1]local b=l[_]for _=_+1,m[0B11_]do b..=l[_]end l[m[0X8]]=b end elseif 9<j then if 14_>j then if j<0B1100 then if j<0XB then local c=m[7]local b,_=x(l[c](w(l,c+1,i)))i=c+b-1 for b=1,b do l[c+b-1]=_[b]end else if(l[m[0b11_1]]==l[m[3]])~=m[8_]then h+=1 end end elseif 1_2<j then l[m[0b1_0_0_0]]=m[0x7_]+l[m[0_B1_1]]else local c=m[0B111]local _,_=x(l[c](w(l,c+1,c+m[3])))for b=1,m[0x8]do l[c+b-1]=_[b]end end elseif 0x_E<j then if j<0_B1_0001_ then if j<0b10000 then l[m[0X8]]=l[m[0x7]]-m[0B_1_1_]else l[m[0x_7_]]=-l[m[0B11_]]end elseif j>17 then local _=m[7]i=_+b for b=1,b do l[_+b]=c[b]end else l[m[8_]]=m[0b_111_]^m[0X_3]end else if(l[m[7]]<l[m[3_]])~=m[0X8_]then h+=1 end end else for _=m[0_X7],m[3]do l[_]=nil end end elseif 0B1001_1<j then if 29_>j then if 0_B11_0_00>j then if j<22 then if j<0x_15_ then l[m[0_X8]]=m[0_x7]^l[m[3_]]else l[m[0x7]]=m[3_]end elseif 0_x16_<j then local _=_[m[0B111_]]local c=_[0x5]if c==0 then l[m[0B_11]]=p(_,f,true)else local b={}for c=1,c do local d=d[h+c-1]local _=d[1_0]if _==35 then b[c-1]=k(g,d[3_],l)elseif _==53 then b[c-1]=e[d[7]]end end h+=c l[m[0B11_]]=p(_,f,true,b)end else l[m[3]]=l[m[8]][l[m[0_X_7]]]end elseif 0x18<j then if j<0_X_1_b_ then if j<0X_1_a then l[m[0_B1000_]]=l[m[0_X7]]^m[3_]else l[m[8]]=m[0_b111]/l[m[3]]end elseif j>0B11_011 then local _=m[0X7]local b=m[0x3_]local c={}for b=1,b do c[b]=l[_+b-1]end s(g,q)return b,c else l[m[0B10_00]]=m[7]/m[3]end else l[m[0_b111]]=m[0X_3_]if m[0X8_]then h+=1 end end elseif 29<j then if 34>j then if j<3_2 then if j<0X1_f then l[m[8]]=l[m[0_b11_1_]]%m[0B1_1]else l[m[0_x8]]=l[m[0x_7]]+l[m[0x_3]]end elseif j>3_2 then l[m[8]][l[m[0_b1_11]]]=m[0x3_]else l[m[8_]]=m[7]*l[m[3_]]end elseif 0X_2_2<j then if j<0X2_4_ then l[m[0_x7_]]=l[m[3]]elseif 36<j then if(l[m[0_B_1_1_1]]<m[0B_11])~=m[8_]then h+=1 end else l[m[0X_7_]]=f[m[0b11]]end else end else l[m[0X8]]=l[m[7]]^l[m[0_X_3]]end else l[m[0X_8]]=l[m[7]]/l[m[0_x3_]]end elseif 0_B100110<j then if j<5_7 then if j<0x_30 then if j<0B1_0_101_1 then if 0x_29_>j then if 0_X28>j then if(l[m[0_x7_]]<=l[m[0_X3]])~=m[8_]then h+=1 end else if(m[0X_7]==l[m[0x_3_]])~=m[0_X8_]then h+=1 end end elseif j>0X_2_9 then l[m[0b1000]]=m[7]%m[3_]else if(l[m[0B_1_1_1]]<=m[0b_1_1])~=m[0B1_00_0]then h+=1 end end elseif j>43 then if j<46 then if j<0x2_d then if(m[7]<=l[m[3_]])~=m[8_]then h+=1 end else l[m[8]]=m[0B_111]+m[0B11]end elseif j>0B_10111_0 then l[m[0X_8]]=l[m[0X_7]]+m[3]else if(m[0_B_111]<l[m[0_B1_1]])~=m[8]then h+=1 end end else local _=m[3]if(not l[_])==m[0B1_00_0]then h+=1 else l[m[0b1_1_1_]]=l[_]end end elseif j>0_b1_100_0_0_ then if 5_3>j then if j<0B_11001_1 then if j<0x32_ then local _=m[0b_11_1]local b=m[0_X3]l[_+1]=l[b]l[_]=l[b][l[m[8]]]else l[m[0_x8]]=l[m[0_X_7]]-l[m[3]]end elseif 5_1<j then local c=m[0_B_1_11_]local b=i-c+1 local _={}for b=1,b do _[b]=l[c+b-1]end s(g,q)return b,_ else local c=m[0B1_11_]local b,_=x(l[c](w(l,c+1,c+m[3_])))i=c+b-1 for b=1,b do l[c+b-1]=_[b]end end elseif 0b11010_1<j then if 0_B11_01_11>j then l[m[8]]=m[7_]-l[m[3]]elseif j>0_X_3_7_ then local _=m[0B1_11]s(g,q)return x(l[_](w(l,_+1,i)))else l[m[0_B100_0]]=l[m[0b111]]%l[m[3_]]end else local _=e[m[7]]l[m[0x3]]=_[1][_[2]]end else local d=m[7]local c=l[d]local e=d+3 local b=l[d+2]local _=l[d+1]l[e+2]=b l[e+1]=_ l[e]=c local _={c(_,b)}for b=1,m[3]do l[e+b-1]=_[b]end if l[e]~=nil then l[d+2]=l[e]else h+=1 end end elseif 0b1_1_10_0_1<j then if j<0_X_4_3 then if j<0X_3E_ then if j<0X_3C_ then if 0x3_B>j then l[m[0X8_]][m[0x7]]=l[m[0_b_11_]]else l[m[0b_1000_]]=m[7]%l[m[0x3]]end elseif j>0_X3_c_ then if(not l[m[0b_111_]])==m[0_b_11_]then h+=1 end else local _=e[m[0X_7_]]_[1][_[2]]=l[m[0B11_]]end elseif 0b11_1110<j then if j<0_x4_1_ then if j<6_4 then l[m[8_]]=l[m[0x_7_]]*m[0_b1_1]else l[m[0B_111]]=#l[m[0b11_]]end elseif j>0_B1000001 then l[m[0X8_]]=l[m[7]]/m[3]else h=0 return 0,{}end else local c=m[7]local _,_=x(l[c](w(l,c+1,i)))for b=1,m[3]do l[c+b-1]=_[b]end end elseif j>67 then if 0b1_001_000_>j then if j<0B_1_000_110 then if j<69 then f[m[7]]=l[m[0_b1_1]]else local d=m[7]local b=l[d]if m[8]then h+=1 end local _=m[0B1_1_]*50 for c=1,i-d do b[c+_]=l[d+c]end end elseif j>0x4_6_ then l[m[7_]]={}else local c=m[0_X_7]local b=n(o(l[c+2]))local _=n(o(l[c+1]))l[c]=n(o(l[c]))-b l[c+1]=_ l[c+2]=b h+=m[3]end elseif j>7_2 then if j<7_4_ then local d=m[7]local b=l[d]if m[5]then h+=1 end local _=m[3_]*50 for c=1,m[0b10_00]do b[c+_]=l[d+c]end elseif j>0b_1001_01_0 then local _=m[7]s(g,q)return x(l[_](w(l,_+1,_+m[3])))else h+=m[0_B1_11]end else l[m[8_]]=m[0B_11_1]*m[0X_3]end else local _=m[0b1_1_1]local b=l[_+2]local d=l[_]+b local _=l[_+1]local c if b>=0 then c=d<=_ else c=d>=_ end if c then local _=m[7]l[_]=d l[_+3]=d h+=m[0_x3_]end end else if(l[m[0X7_]]==m[0b_11])~=m[0_B1_0_00_]then h+=1 end end else l[m[0_X7_]]=not l[m[0X_3]]end continue end end local k do local d={["\123"]="\92",["\127"]="\158",["\1"]="\32",["\3"]="\34",["\2"]="\33",["\5"]="\36",["\4"]="\35",["\7"]="\38",["\6"]="\37",["\9"]="\40",["\8"]="\39",["\11"]="\42",["\10"]="\41",["\13"]="\44",["\12"]="\43",["\15"]="\46",["\14"]="\45",["\17"]="\48",["\16"]="\47",["\19"]="\50",["\18"]="\49",["\21"]="\52",["\20"]="\51",["\23"]="\54",["\22"]="\53",["\25"]="\56",["\24"]="\55",["\27"]="\58",["\26"]="\57",["\29"]="\60",["\28"]="\59",["\31"]="\62",["\30"]="\61",["\33"]="\2",["\32"]="\1",["\35"]="\4",["\34"]="\65",["\37"]="\6",["\36"]="\5",["\39"]="\8",["\38"]="\7",["\41"]="\10",["\40"]="\9",["\43"]="\12",["\42"]="\11",["\45"]="\14",["\44"]="\13",["\47"]="\16",["\46"]="\15",["\49"]="\18",["\48"]="\17",["\51"]="\20",["\50"]="\19",["\53"]="\22",["\52"]="\21",["\55"]="\24",["\54"]="\23",["\57"]="\26",["\56"]="\25",["\59"]="\28",["\58"]="\27",["\61"]="\30",["\60"]="\29",["\62"]="\31",["\65"]="\34",["\92"]="\123",["\158"]="\127"}local _={[0_X0_]=" ",[" "]=0B0_,"\33",["\33"]=0x1,"\35",["\35"]=2,"\36",["\36"]=3_,"\37",["\37"]=4,"\38",["\38"]=0X5,"\39",["\39"]=0X6,"\40",["\40"]=0b111,"\41",["\41"]=8_,"\42",["\42"]=0x_9_,"\43",["\43"]=1_0,"\44",["\44"]=0b1_011,"\45",["\45"]=0B_1_1_0_0,"\46",["\46"]=0X_d,"\47",["\47"]=0Xe,"\48",["\48"]=1_5,"\49",["\49"]=0x10_,"\50",["\50"]=17,"\51",["\51"]=0X_12,"\52",["\52"]=0_x13,"\53",["\53"]=20_,"\54",["\54"]=21_,"\55",["\55"]=0X16,"\56",["\56"]=0x17,"\57",["\57"]=0b_110_0_0_,"\58",["\58"]=2_5,"\59",["\59"]=26,"\60",["\60"]=27_,"\61",["\61"]=0B1_11_00,"\62",["\62"]=0_B1_1101_,"\63",["\63"]=0X_1e_,"\64",["\64"]=3_1,"\65",["\65"]=0b_1_00000,"\66",["\66"]=0_b1_00001,"\67",["\67"]=0B100_010,"\68",["\68"]=0x23,"\69",["\69"]=0_x_24,"\70",["\70"]=0B1_00_10_1_,"\71",["\71"]=0_x26,"\72",["\72"]=0x2_7,"\73",["\73"]=4_0_,"\74",["\74"]=0x29,"\75",["\75"]=0B1_01_010,"\76",["\76"]=0X2b,"\77",["\77"]=44,"\78",["\78"]=4_5,"\79",["\79"]=0b101110,"\80",["\80"]=47,"\81",["\81"]=48,"\82",["\82"]=0_b110_001_,"\83",["\83"]=0_B11_0010,"\84",["\84"]=5_1_,"\85",["\85"]=5_2,"\86",["\86"]=0x_35_,"\87",["\87"]=0X3_6,"\88",["\88"]=0_b_110_1_11_,"\89",["\89"]=0_b_111000,"\90",["\90"]=0_b_11_1_00_1,"\91",["\91"]=0B111010,"\93",["\93"]=0_x_3B,"\94",["\94"]=0_X3_C,"\95",["\95"]=0X3_D_,"\96",["\96"]=6_2_,"\97",["\97"]=0_X3F_,"\98",["\98"]=64,"\99",["\99"]=0_B1_00_000_1_,"\100",["\100"]=0x42,"\101",["\101"]=67,"\102",["\102"]=6_8,"\103",["\103"]=0X45,"\104",["\104"]=0X4_6,"\105",["\105"]=0B10_0011_1,"\106",["\106"]=72_,"\107",["\107"]=7_3,"\108",["\108"]=0_x4a_,"\109",["\109"]=75,"\110",["\110"]=0b1_001_100_,"\111",["\111"]=0_X4d_,"\112",["\112"]=78_,"\113",["\113"]=0B10_01111,"\114",["\114"]=8_0,"\115",["\115"]=0x_5_1_,"\116",["\116"]=0X52,"\117",["\117"]=83,"\118",["\118"]=0_x_54,"\119",["\119"]=0X55_,"\120",["\120"]=0b1010_110,"\121",["\121"]=8_7_,"\122",["\122"]=0B1011_00_0,"\123",["\123"]=89,"\124",["\124"]=0X5a,"\125",["\125"]=0X_5b,"\126",["\126"]=0_b1011100,"\127",["\127"]=0_X_5d,}local function b(c)local b=0 for d=1,#c do b+=93^(d-1)*_[u(c,-d,-d)]end return b end function k(_)local h,k,_,c={[0B0]=" ",[" "]=0b0_,"\33",["\33"]=1,"\35",["\35"]=2,"\36",["\36"]=0B11,"\37",["\37"]=0_B100_,"\38",["\38"]=0x5_,"\39",["\39"]=0X_6,"\40",["\40"]=0B1_1_1_,"\41",["\41"]=0_B1_000,"\42",["\42"]=9,"\43",["\43"]=0X_a,"\44",["\44"]=11,"\45",["\45"]=12_,"\46",["\46"]=0x_D_,"\47",["\47"]=0xe_,"\48",["\48"]=0xf,"\49",["\49"]=0X10,"\50",["\50"]=0_B_10_0_01,"\51",["\51"]=0_B_1001_0,"\52",["\52"]=0_b100_11_,"\53",["\53"]=0x1_4,"\54",["\54"]=0X1_5,"\55",["\55"]=2_2,"\56",["\56"]=0X17,"\57",["\57"]=24,"\58",["\58"]=25,"\59",["\59"]=0B11010_,"\60",["\60"]=27_,"\61",["\61"]=0b11100,"\62",["\62"]=29,"\63",["\63"]=0_b11110,"\64",["\64"]=31,"\65",["\65"]=32,"\66",["\66"]=0X_21_,"\67",["\67"]=0_B_1_0_001_0,"\68",["\68"]=0X2_3,"\69",["\69"]=0_b1_0_01_0_0,"\70",["\70"]=0X_25,"\71",["\71"]=0B100_110_,"\72",["\72"]=39,"\73",["\73"]=0_B10100_0,"\74",["\74"]=0x2_9_,"\75",["\75"]=0_x_2A,"\76",["\76"]=0_B_10_1011,"\77",["\77"]=0x2c_,"\78",["\78"]=0X2d,"\79",["\79"]=46,"\80",["\80"]=0x2f,"\81",["\81"]=0_X_30,"\82",["\82"]=0X_31,"\83",["\83"]=5_0,"\84",["\84"]=0x33_,"\85",["\85"]=5_2,"\86",["\86"]=0b11_0_101,"\87",["\87"]=5_4,"\88",["\88"]=55,"\89",["\89"]=0B111_0_0_0,"\90",["\90"]=0_x_39_,"\91",["\91"]=0_B1_11_010,"\93",["\93"]=59_,"\94",["\94"]=0_x_3C_,"\95",["\95"]=61_,"\96",["\96"]=0x3e,"\97",["\97"]=63,"\98",["\98"]=0X40,"\99",["\99"]=65,"\100",["\100"]=0x4_2_,"\101",["\101"]=67,"\102",["\102"]=0b_1_00010_0_,"\103",["\103"]=0B_10_00_101,"\104",["\104"]=70,"\105",["\105"]=0x47,"\106",["\106"]=0X48,"\107",["\107"]=73_,"\108",["\108"]=0_X4a_,"\109",["\109"]=7_5,"\110",["\110"]=0x4_c,"\111",["\111"]=7_7,"\112",["\112"]=0b_10_01110_,"\113",["\113"]=79,"\114",["\114"]=8_0_,"\115",["\115"]=0x_51,"\116",["\116"]=0_x5_2,"\117",["\117"]=0_X_53,"\118",["\118"]=0B101_0_1_00,"\119",["\119"]=0X55_,"\120",["\120"]=0b101011_0,"\121",["\121"]=87,"\122",["\122"]=0b_1_01_1000,"\123",["\123"]=0X59,"\124",["\124"]=0x5a,"\125",["\125"]=0X5_B,"\126",["\126"]=92,"\127",["\127"]=0X_5D,},{},c(_,"(.-)|(.*)")local f,g,i={},1,1 for _ in m(_,"%d+")do local _=_*i f[i]=u(c,g,g+_-1)g+=_ i+=1 end local c for _=1,i-1 do for _ in m(f[_],e(".",_))do local _=h[b(_)]if c then if _ then r(k,_)r(h,c..u(_,1,1))else _=c..u(c,1,1)r(k,_)r(h,_)end else k[1]=_ end c=_ end end return l(j(k),"\127\40\46\41",d)end end local _=l(k("11,954|ABFEGQHGHDG!% G C P C!)!%!(!'!+ O!. H F H B!,!. G N!? G I!>!7!, J!9!H B E!C!) F G!G!:!: B H E D L C Q!X!*!8 I!/!B G K!9!O!( G D!(!T G!)!+!% Q G P!c!j!p F!_!m G O!X E!1!7!'!k!&!h!%!b!: K!X!1!T!X!w!> K!o!X!$# !~!-!_ N!e C H I![#$!j!)!a!A!j!@!n!1!: E!H!+#- P!`!b!3#>!@!~!j#C#=#-#N#+#7!N!G!+!1#I!N!n O#E#>#[#`!b!g#E!$!% J#M G!$!G!j!7#Z!&#> F F!+!n!'#s!<#7!g#s!:#Y!o!i!@#V!j!U H K!:#<#f#  D D!%#I!) I F!<!'##!c#-!n!p L!j![ Q!z!T!i#n!f!?$' E!@#H#<#z$)#@#q$6#%#t!e P!$!q!;!;#<!N$0 H!P!K$<!$!N!2!=!r#k!>!s!T E#K!z!U!8!-$3!8#{ E!%#Z!t!e!k$E$r!o#s#1!= J$q$e$~!n!@$G$d$B#7$}!L!9 E$Y!:!C!5 G M$n$H!C%*!N!v#I$0!,$7#q!p$q!|#!$%!g!M!c$9 D C E#]#8!o#E$Q%;!N$8%L!1#e#q#5!M!j$n$5!a%<$9 F$}%S!i%#!h$`#0!b$;#k#;#7!% M$@#y%K P E M$< K E!n#{#,!o#R![!)!S#u$Z#>!7#$$'$U#u!w$U#s!C!1#$#`!5$~#i#S#k E!|#k!e#N$3$=&)!S$z%z#A!=%2%~#q O&*&1$e!`%X%!$ !e!*!i$8!N%<$G!c%k!z!A N$n$#$b$h&4%6&:& !<$v#%&G#p!L#k%f!`#I!1&X$`#?$V!5!H#7#<$u F#v$y#w#<#N&p&N F A K' !A!n$x N C!< H%N$+%Q!0!J&@#C C$}&k#+!.'! L' '9&3'%!>''!#!m!h!l$%'4!E C&X#`!=!-$@!z&X!+!2&8!9'( D!x B'2 C D#0!}![#3!0!2'W C K!V#=%0#o'Q'3!D#P#&#5!<'&!?'2!`!{#P%q!P!I$]!M'F'q'5'F'V!+'u!R!T!V#'%0#7!^#I!C#;#m!f%A#2%=!q$ !t#I!v!x$>'r'Z& $a&%#&!Y'_#^%y!0 Q'Y'A$b#4#6'`'b$;!4!['f!t'h'r'6'F#F$u'a A'8'!(Y#> H'($S$%$b'K'(!c#i!r(W':':([(c#9#G(1!(&3!.&=!O#< P(g(Y(h!b(l%[&n(o#?'2(D(/!,'D#P'M$<'H#5!t'7(x'##@$A(v)-#d$^(E'.'$!>#D#F#a!B) 'N$@)/!t N%,'i'6)1(w#-$c&~(X(i)I)F'##-(]!<#K#R(~#y%z!t)R!i(}#N) '@)#)C(Q'a(c#W(t)N(Y%|!H!~)6'0&7#f#:%z!^#X$I$d)[#P J)!'['C)D)c)B)%)E)K(Z)M*#(t#k)F$F#q'1$.!$$>(C'X!z D(v E(e$o!c'N!8%.$,%1%n!>!-$q'A%|(2#t#q#^!i!%&@%l*E%}!A#-$r(1#s$+(&&I$](Q%I*:!.&e$A$S!N#z%+$#$T#f*E&w O&Y!8)H!*!K!e%u#o#a%7$(!(&l$u$h(1*g#h# !J%8%{!6 D'?&T&}$<$.$L!)*s%E*k&6&n'G%1%[!J%C!H#]$y%l+0&`&D&F!g#G&A!i(|+%#0#E*9(`!G%u%(%[%I+2#h&5# (}()&V!7+J!O+L!'+N!B+*)o+<+O%6&G&3#}(t*X#v*k*A![*W%@!e$~(Q+f$z*/)p(*%z&l$q%M#~!E$)*t&t(:)W**'< M*5({$C!')x$+$$#K%<#E*A%['N#0$v&M$.$9$~%%!r%++((t%+%s*O%1,3$I*k$v& !++-*i"),"..",function(_)local b,_=b(_,1,2)return d((b-65)*16+_-66)end)local _=function(...)return u(_,...)end function p(e,c,b,_)local m local d=e[0x_1]if b then m=e[0x_2]else m=v(k(e[0X2]),"E")do local d=e[0B_1_0_0]local c={}for _,b in t,m do local e={}local b=v(b,"L")for _,_ in t,b do local _=v(_,"H")e[d[_[1]]]=d[_[2]]end c[_]=e end m=c end local b function b(_)if not _ then return end for _,_ in t,_ do local c=_ local e=c[4]local d={}local _=v(k(c[2]),"E")for b,_ in t,_ do local c={}local _=v(_,"L")for _,_ in t,_ do local _=v(_,"H")c[e[_[1]]]=e[_[2]]end d[b]=c end b(c[0X_1])c[2_]=d end end b(d)end local l=e[0_b_11_]return function(...)local b={}local e={}local k=0 local j,i=x(...)for _=1,l do b[_-1]=i[_]end if l<j then k=j-l for _=1,k do e[_]=i[l+_]end end local _,c,b=f(g,{{e,k},m,d,c,_,b,})if _ then return w(b,1,c)else return h(c)end end end return p({{{{},"12,208|AHBLCHDLFHGE!! G!% H I L J H K!)!+!-!1!0 M!7 A!9 N!0 O!3!+!7!,!! P!0 Q!7 N!9 R!I!=!9 A!0!@!4!R!* S!M!O!* T!9 U!0!(!* V!9 V!0!2!4!6!b!9!2!&!<!* F!?!A!C!/!j!! W!0 X!C Y!7 Z!9 T!r!4!@!*!L!!!{!& a!K E!* b!0 c!9 d!Z H!]#'!0#*![#, H!e!&#0!!#2!&!J#9!.!;!7!c!!!R!m!|!q!&!B!4!2#9!b#/!9 e#3#5 H#I H!n#;!k#E!*!}!!!@!& f!7!]![!0 g!9 h#V!9#( H#8#4#:!B#=#k#m#D#J!u!D#M!s#f#n#7#~!o#S!!#U#A#~!! i#3#G#{#Z#K#x H#N!D#z!l$/#`#L H#e#Q#4#i#^!& j!7 I",1,{a=61,c=74,b=13,e=_(106,115),d=_(97,105),g=52,f=75,i=_(122,129),h=_(116,121),j=28,A=3,C=10,B=_(2,10),D=21,G=1,F=7,I=0,K=_(11,16),J=8,M=35,O=12,N=2,Q=36,P=_(17,21),S=_(26,32),R=_(22,25),U=_(33,96),T=4,W=true,V=5,Y=false,X=24,Z=6},0},{{},"9,79|AHBLCHDLF!# E!!!$!& G L I H J!)!+!! K!% H M!5 B E!* N!9 O!,!#!9!(!* J!C!. H P!<!C Q!9!;!*!=!G!A!I!E!5!H!! R!9 S!X!C!4!& T!1!3!5 U!V!/!d!4!G!`!9 V!d!$!R!m!& W!M!-!9!u!R",0,{A=3,C=10,B=0,D=53,G=12,F=7,I=8,K=false,J=1,M=61,O=74,N=4,Q=true,P=16,S=36,R=_(130,133),U=_(134,139),T=2,W=28,V=6},2},{{},"12,280|AHBLCHDLFHGE!! I!%!'!)!#!- H J!0 K!2 A!4!/!& M L N!#!2 B!4 O!0 P!B E!* Q!0 R!4!$!& G!? H S!2 I!4 T!7!2 U!;!0!>!@!$!*!V!!!E!&!G!b!I H V!L!N!0!Q!@ W!9!4 X!0!(!h!! Y!0 Z!2 a!4 a!0!/!@# !* b!4 F!u!r!!!Q!=!R!a H F!4 N#*!*!:#,!^#/!2 N!4 c#5 H#7!+!0 d!2 c!m!& e!|!~!0 f!R!t!* X#K!&## H!/!* g#R H h#N!2#Q!.#9!@!Q#6!4!y!&!{#d!! A#!!R#k!* i!4#k!& j!R#V H k!]!&!v H![#j#?#_ H l!Y!*#}!A#.!`#+#@#l!@#n H m#G H!_#B!w H n!z!U$2!o H o$+!O$3#u!r!* p!l!!# !P!R q!2#2!! r$% H#F#`$)!A!*$M H!e H!g#1!i$H H!M!!#)#z#J!!#4$d!*!}!!#>$h H$j$Q!0#t#$!2 s#3$q!R#% H t#($w$s!* u#y H v$:!* w$F#B!& x!2 G",1,{a=6,c=9,b=_(188,190),e=62,d=51,g=_(191,198),f=31,i=_(199,202),h=50,k=_(203,224),j=58,m=_(228,234),l=_(225,227),o=_(239,252),n=_(235,238),q=_(253,255),p=11,s=_(264,271),r=_(256,263),u=_(280,289),t=_(272,279),w=-13,v=48,x=28,A=3,C=10,B=1,D=53,G=0,F=7,I=2,K=21,J=0.2,M=12,O=false,N=8,Q=23,P=61,S=_(140,153),R=74,U=4,T=_(154,169),W=_(170,180),V=18,Y=_(181,187),X=5,Z=36},7},{{},"16,126|AHBLCHDLFHGLIHJE!. K!% H M E!! N!4 O!- H P!7!=!4 Q!)!@!. R!?!B!& S!<!0!!!H!/!C T!< Q!? P!4 U!C!U!.!S!! V!4 W!< A!G!4 X!<!>!.!U!& Y!1 H!W!&!6!!!i H!`!h!? J!4 Z!C a!R!l!r!p!@!&!t H![#!!s!a!? b!4 c!f#*!4!J!u!! d#0!K!?#4!&!w!*!Q!. d!T!4 e!<#>!!!w!& f!< b!? g!4 h#.#D!4 i!K",1,{A=3,i=28,C=10,B=_(1,0),e=51,D=57,G=false,F=8,I=7,h=67,K=9,J=0,M=74,g=-6,O=36,N=_(130,133),Q=2,P=1,S=53,R=_(290,292),U=12,T=_(293,306),W=21,V=0.03333333333333333,Y=52,X=75,f=62,Z=43,d=6,c=70,b=5,a=true},2},{{{{},"11,211|AHBLCHDEFHG!% H I L!! J!) H K!- M!0!#!3!5!&!5 N!4!8 O!3 J!- P L!>!C!1!B!- Q!8 B!J!&!7!I!*!$!&!E!>!$!R!#!- R!8!2!*!C!& S!F H T!M E!! U!- V!O!?!W!^!m!= H!H H W!3 X!-!/!! K!:!-!r!5!! Y!3 F!6!g!*#&!<!d#&!! Z#%!~#,!8 a!3 b#'!!!N!*#6#+!>#6#.#5#1#=#3!3 c#7!9!*#E#< H#E!! d#D#A#K#C#H!- e!d#> H b!}!U!d!t!|!*!x!&!z H F#0#J#- H#$#:#F#9#X#P#W#/#k#J#W f#O!P#(#Q#J#L H#q#y!n#Q!!#u!* g#l!3$&#J$&#M$(#P$+ H$$ H$) H#U!>#{ c#Z H h!8#e!S!- i!p$>!& j!M",0,{a=_(361,361),c=5,b=4,e=31,d=_(362,373),g=6,f=_(374,374),i=62,h=51,k=_(375,378),j=28,m=23,l=_(379,383),A=7,C=10,B=0,D=71,G=_(307,320),F=3,I=36,K=2,J=1,M=53,O=_(321,336),N=8,Q=35,P=12,S=46,R=64,U=-10,T=false,W=_(337,344),V=74,Y=_(134,139),X=_(130,133),Z=_(345,360)},2}},"12,41|FHkLCHILAHJE!! J!% H K L N!+!) H l!-!1!0 m!6!,!! B!0 Q!6 B!9!@!& M!C!9!/!& P!3 H!@!*!>!O!0 j!C",1,{a=_(361,361),c=5,b=4,e=31,d=_(362,373),g=6,f=_(374,374),i=62,h=51,k=_(375,378),j=28,m=23,l=_(379,383),A=7,C=10,B=0,D=71,G=_(307,320),F=3,I=36,K=2,J=1,M=53,O=_(321,336),N=8,Q=35,P=12,S=46,R=64,U=-10,T=false,W=_(337,344),V=74,Y=_(134,139),X=_(130,133),Z=_(345,360)},1},{{},"9,53|AHBLCHDLF!# E!!!$!& G L I!#!)!+!-!%!'!4 J!,!3!&!$!2 K!4 B!; M!7 N!4 O!; P!7 Q!1 H R!4 A!; A!7 S!A E!*!. H T!;!Y U!A",0,{A=3,C=10,B=0,D=53,G=12,F=7,I=8,K=_(140,153),J=1,M=_(384,392),O=2,N=21,Q=24,P=true,S=75,R=false,U=28,T=52},2},{{},"12,86|AHBLCHDLFHGE!! I!% H J!)!+!- H!/!& G L K H M!3 I!5 N!0 O!3 A!5 P!0 Q!>!5!9!& R!3!,!!!L!1!J!.!0!2!* P!5!7 H S!:!6!O!K!0!9!;!=!*!P H T!B!3!Y!! A!V!D!5 U!k!* V!Z!H!q!g!0 W E!z!& X!b!& Y!O",0,{A=3,C=10,B=_(393,411),D=36,G=0,F=7,I=1,K=8,J=53,M=_(412,423),O=21,N=_(424,435),Q=51,P=2,S=12,R=62,U=_(1,0),T=_(384,386),W=56,V=4,Y=28,X=52},4},{{},"12,75|AHBLCHDLFHGE!! I!% H J!)!+!- H!/!& G L K H M!3 I!5 N!0 O!3 A!5 P!0 Q!>!5!9!& R!3!,!!!L!1!J!.!0!2!* P!5!7 H!G!;!/!* S!F!V!D!5 T!B!e!U!&!I!X E!*!R U!n!+!0 V!K!0 W!O",0,{AC=50,aB=_(1068,1076),bB=_(1077,1082),cB=_(1083,1087),dB=38,eB=_(1088,1095),fB=39,gB=_(1096,1102),hB=40,iB=_(1103,1103),jB=_(1104,1118),kB=_(1119,1123),lB=41,mB=42,nB=_(1124,1133),oB=43,pB=_(1134,1143),qB=44,rB=_(1144,1149),sB=_(1150,1154),tB=_(1155,1161),uB=100,vB=154,wB=70,xB=15,yB=11,zB=150,ZC=_(1212,1217),aC=68,cC=_(1230,1248),bC=_(1218,1229),eC=_(1249,1253),dC=_(130,133),gC=1000,fC=_(361,361),iC=46,hC=64,kC=54,jC=_(1254,1257),mC=14,lC=20,oC=_(191,198),nC=_(1258,1263),qC=-118,pC=-109,sC=67,rC=-155,uC=_(1274,1283),tC=_(1264,1273),wC=_(1297,1300),vC=_(1284,1296),yC=_(1301,1310),xC=_(1074,1076),zC=_(1311,1315),A=3,C=10,B=_(393,411),D=36,G=0,F=7,I=1,K=8,J=53,M=_(412,423),O=21,N=_(436,447),Q=51,P=2,S=_(448,454),R=62,U=56,T=_(1,0),W=28,V=52,Y=35,X=23,Z=_(455,463),a=12,c=_(472,474),b=_(464,471),e=9,d=22,g=_(475,481),f=_(22,25),i=false,h=37,k=4,j=74,m=_(482,505),l=24,o=-11,n=26,q=57,p=6839171747,s=13,r=true,u=_(379,383),t=_(375,378),w=5,v=_(17,21),y=_(506,513),x=25,z=27,WC=104,VC=_(1208,1211),YC=49,XC=_(500,503),UC=_(553,556),TC=47,SC=48,RC=107,QC=_(1197,1207),PC=_(235,238),OC=116,NC=_(1189,1196),MC=-15,AB=_(514,530),BB=61,CB=_(531,987),DB=_(181,187),KC=_(1177,1188),FB=_(188,190),GB=3270,JC=6,IB=_(225,227),JB=29,KB=_(988,996),IC=_(1167,1176),MB=17,NB=_(997,1005),OB=_(1006,1017),PB=30,QB=_(192,193),RB=_(1018,1022),SB=_(1023,1039),TB=31,UB=_(1040,1047),VB=32,WB=_(1048,1057),XB=33,YB=_(1058,1067),ZB=34,GC=_(140,153),FC=63,DC=99,CC=_(1162,1166),BC=148},4}},"12,1321|AHGLCHXLFHIE!!!$!& Y!)!+!- H Z!% H O!2 P!4 I!7 a L K!+!2!,!.!>!@!#!C!4!/ H!1!*!D H b!7!9!*!;!!!=!&!?!A!=!N!4 c!R!:!<!F!A!S!3!! d!7 e!2 d!4 f!7 D!2 X!4!(!& P!G!(!* g!b!& h!G i!q E!* F!7 j!4 k!7!M!'!m!o!2 l!4 l!7!$!A m#/!4 g!`!* n!4!v!& Q#7!E!& R#!!* o#&#-!&!p!*!r!!!t H!v!A!x H!z!! p!7 q!G r#E H s#H!!#[!&#2!A# !*!l!! t#.#L!s!7#Q!'!2 u!4 v#k H#0!! w#*!2 x!4 y#: H#<!V!c!B!*#|!! x#n!G$*!* y!4#y!0!2$# H#~!&!e z!{ H!Y$&$!!4#W$7!2$9!!#)!X!G!$#l!! A B#u#M H# !& B$L#l!* A#` H$K$M!4 C$L$A!*#w!B$F!A$H#,!!$P H$R!k##$b H#'#B H W!2 G!4 D$^ H#K$f#p!u!w!2 F B$0$ $a!K!e$(!#$w!e$4$V$c$=$N%&#A H$*!&#S!U H!j$2!*$t!!#2%:!#!4 n!i$3#=#z!*$C H$1!L!2 W!<%*!2 J%!$$%.![$q!4$r$|!A$r!* K%R H%Q!7#S A!4 M$w#+%<!8%F%@#N%k%i%4%K%;#(%n%#%?%i%B%v%E%T$B!4 N$w$y%M!!%X!H!A M%L!4 O%O!T%_#>$;!G%U&# H Q& %P%_%a%Y%`$S H R%_!K$<%U%Q%u%q#P%_ S&, H T%_!W&0!Z!:&.$w#4 H&(&-!4 U&I V&.$%%U P&Q#3!G&U&J%_ W&I X&[%{!*&K#=&R&b!2&Z!4 Y&I Z&i&N$=&q#N$w#S k&*%t$D'  H#%%?&u&~%? Y!4 a&I D!4 b&I h!4%-&w%U''!!!1%5!2 w%s%y!!!p&:&Z!2 c&?#X!~!2'.$`$W'9&E'.!!'%&E'2!!&u%k d%_ e&I f%_ g'1%_'4#@!*'R!H#C'H!s%g'f!!&/!e'c&M$<$e'N$i#u'q'P#+'c&%#+'V!4 i'Y%_ j'^#(&I l%_ k&I m%_ n&I o%_ p&I q%_'P'a H'c!K#D!*'q&h%k'q C$ 'm$%'p&D#+'q&H(?$:&A'i$x&a&'(J r&I'z'j&](J#j#J!2'c!}&:!}!* s'_'U%_'@&&&T!2'Z!4 t($&v(4(f$p(8(5!4(Y#P!G'B!*'D!4 u(P&L$ (l H v$w w&<'c(%$+!A&K'C(z!& x$L!A)%$`%_)%!& y)- H#['b%!%G$w$o$X(>!&#Y!A)7(5)9$i)>$n$u&6)0#1$w#o)/ H C C$u)F F(>).&<(%)K!7)(#R#!!!%~#u)X%=&n$d(>)J!V)F!e(-%z'5#/%_#b$i)W)D J)F)<)`(V)g#v)d!#)f)z!4 K)i!2)k(R&j)~$g!7$j)J$U$W$E&E)b'd&w$e)X!* M)u)H)a)1)L!G)N)P)R!7)T*=)r)Y!& A)U#p$I$q(L(d)y N)F$y*%)C%k(1$:(4*R&M(n*1()%C!*()!4)p*+ H*`!* O*8'j*P*$*;*L Q)}*U%S&w!v!**U!* R*h H S)F#o T)} U)Q!! V)F)@$O!2*z$l W*x*}*L G)}+)#N*#$U+!(r*'+1+'$Q&<+)(9+,)F&S&c+8+$$ *G)l(I!*+8 Y*{!G*z!2 Z+5+O#u+E$J+K!A*G$~'E$_&4!J$  V$[$  J'3(S+4'3)F)t!G+J!2+J&r)F a)} b+5+M!&+@+k+5 c+3+[*&)m!*+l!g*j+e+T)&)=!2 e+5#@&:+j(u%_,*(r!A(k+5 g)S*H(4 Q(H&1!2+S H d,!+z&4,%(4,(!4 V,%+M!*+O,E,%,F!* f,3,5(s&p,9&O!*,8!!,/)4'G+e!*+o$W)2(c*n,;+5'n,:,#,&!|)},<+W!& i*H#f!3#$+>+.,k+5 j+y+_+{+G)='{**&<+E,I);%W,u!2,W H*O#u+b*q+-!A k)} h)*,A!*--$m(n-)$h*c,8#$$W,/*|&<(v+{),!G,7!4,Y)5)B-3$l'4)<)p#d+'*_)D+j!&#'$`*x m)F#+-),F':-6+5*/%h*E&E%i,f,U,@,/+u!*,z$!+y-1+F,g H-n#O#o,M H o+5(;%?-n*/!e-7-h!H-m!4-Z%k-n J%b$~-H'#%f'#!9'>!''h%r*q'o,S,V!7'<%m&:,H-y+5-;-!)Q$.-%&z%k-). ,S.7$G-(.'-[.N+#.,%]+f'#.(.3'B.3-|-f,T.%+[!*%9)G$J$ -)-P,[$>,X%k$a-c.Q-t,L+;.^$e-)%1,V,~#c.h$4,/#+#0+4.;*a!7-Q,q*e+6.c/'.?)k!* p*x.m#F+Y*3*k$l q*8)0/ #a)F s-2$u*L&c'c t+y(|&/,|(X*L u)}(Q$m.8#g(&(`!m*<!A([(},e(A!k%_.2(c w/I-4/L,=%_%J'y%_ x/B/^-s/J'V*L y/].r/W(g#u/i/Q/`$B+5'k(e%_#t)x)C(C)n#}$ *`.L-i*1,a)M&<$/#x%k0#$5$ *X+d*d%_!n/{*R(-,%07!y&D/_/J!K%[!#",0,{AC=50,aB=_(1068,1076),bB=_(1077,1082),cB=_(1083,1087),dB=38,eB=_(1088,1095),fB=39,gB=_(1096,1102),hB=40,iB=_(1103,1103),jB=_(1104,1118),kB=_(1119,1123),lB=41,mB=42,nB=_(1124,1133),oB=43,pB=_(1134,1143),qB=44,rB=_(1144,1149),sB=_(1150,1154),tB=_(1155,1161),uB=100,vB=154,wB=70,xB=15,yB=11,zB=150,ZC=_(1212,1217),aC=68,cC=_(1230,1248),bC=_(1218,1229),eC=_(1249,1253),dC=_(130,133),gC=1000,fC=_(361,361),iC=46,hC=64,kC=54,jC=_(1254,1257),mC=14,lC=20,oC=_(191,198),nC=_(1258,1263),qC=-118,pC=-109,sC=67,rC=-155,uC=_(1274,1283),tC=_(1264,1273),wC=_(1297,1300),vC=_(1284,1296),yC=_(1301,1310),xC=_(1074,1076),zC=_(1311,1315),A=3,C=10,B=_(393,411),D=36,G=0,F=7,I=1,K=8,J=53,M=_(412,423),O=21,N=_(436,447),Q=51,P=2,S=_(448,454),R=62,U=56,T=_(1,0),W=28,V=52,Y=35,X=23,Z=_(455,463),a=12,c=_(472,474),b=_(464,471),e=9,d=22,g=_(475,481),f=_(22,25),i=false,h=37,k=4,j=74,m=_(482,505),l=24,o=-11,n=26,q=57,p=6839171747,s=13,r=true,u=_(379,383),t=_(375,378),w=5,v=_(17,21),y=_(506,513),x=25,z=27,WC=104,VC=_(1208,1211),YC=49,XC=_(500,503),UC=_(553,556),TC=47,SC=48,RC=107,QC=_(1197,1207),PC=_(235,238),OC=116,NC=_(1189,1196),MC=-15,AB=_(514,530),BB=61,CB=_(531,987),DB=_(181,187),KC=_(1177,1188),FB=_(188,190),GB=3270,JC=6,IB=_(225,227),JB=29,KB=_(988,996),IC=_(1167,1176),MB=17,NB=_(997,1005),OB=_(1006,1017),PB=30,QB=_(192,193),RB=_(1018,1022),SB=_(1023,1039),TB=31,UB=_(1040,1047),VB=32,WB=_(1048,1057),XB=33,YB=_(1058,1067),ZB=34,GC=_(140,153),FC=63,DC=99,CC=_(1162,1166),BC=148},0},i())()
+local function Load(Name)
+	local SourceName,Success,Result = ("Source.%s"):format(Name),pcall(game.HttpGet,game,("https://raw.githubusercontent.com/Amourousity/%s/main/Source.lua"):format(Name),true)
+	if Success then
+		if writefile then
+			writefile(SourceName,Result)
+		else
+			return loadstring(Result,Name)
+		end
+	end
+	if isfile and isfile(SourceName) then
+		return loadstring(readfile(SourceName),Name)
+	end
+end
+Load"Conversio"()
+local Nil,Connect,Destroy,Wait,Service,Valid,WaitForSequence,RandomString,RandomBool,NilConvert,NewInstance,Create,DecodeJSON,WaitForSignal,Animate,Assert,GetCharacter,GetHumanoid,ConvertTime,GetContentText,Owner = Load"Utilitas""All"
+local Position = Vector3.new(5,0,3270)
+local VLevel = 0
+local function RandomAxis()
+	return (RandomBool() and -VLevel or VLevel)*math.random()
+end
+local Touchable
+local TeleportLoop = Connect(Service"Run".Heartbeat,function(Delta)
+	local Character = GetCharacter(Owner,.2)
+	if Character then
+		local HumanoidRootPart = Character:FindFirstChild"HumanoidRootPart"
+		if HumanoidRootPart then
+			Character:TranslateBy(Position+Vector3.new(RandomAxis(),RandomAxis(),RandomAxis())-HumanoidRootPart.Position)
+			HumanoidRootPart.AssemblyLinearVelocity = Vector3.zero
+		end
+	end
+	Wait(Service"Run".Stepped)
+	for _,BasePart in next,Character:GetDescendants() do
+		if BasePart:IsA"BasePart" then
+			BasePart.CanCollide,BasePart.CanTouch,BasePart.CanQuery = Touchable,Touchable,Touchable
+		end
+	end
+end)
+local CurrentRooms = workspace:WaitForChild"CurrentRooms"
+local Start = os.clock()
+local GameData = Service"ReplicatedStorage":WaitForChild"GameData"
+local ChaseStart,LatestRoom = GameData:WaitForChild"ChaseStart",GameData:WaitForChild"LatestRoom"
+local function Ping(Return)
+	if Return == "" then
+		return math.max(Owner:GetNetworkPing(),1/30)
+	else
+		for _ = 1,Return or 1 do
+			Wait(Owner:GetNetworkPing())
+		end
+	end
+end
+local MainUI = Owner:WaitForChild"PlayerGui":WaitForChild"MainUI"
+local function PressButton(Button)
+	task.spawn(function()
+		local Connections = {}
+		repeat
+			Connections = getconnections(Button.MouseButton1Down)
+			Wait()
+		until 0 < #Connections
+		Connections[1].Function(math.random(Button.AbsolutePosition.X,Button.AbsolutePosition.X+Button.AbsoluteSize.X),math.random(Button.AbsolutePosition.Y,Button.AbsolutePosition.Y+Button.AbsoluteSize.Y))
+	end)
+end
+if LatestRoom.Value == 0 then
+	PressButton(MainUI:WaitForChild"ItemShop":WaitForChild"Confirm")
+	Ping(2)
+	fireproximityprompt(CurrentRooms:WaitForChild"0":WaitForChild"StarterElevator":WaitForChild"Model":WaitForChild"Model":WaitForChild"SkipButton":WaitForChild"SkipPrompt")
+	Ping(10)
+end
+local Bricks = Service"ReplicatedStorage":WaitForChild"Bricks"
+task.defer(Destroy,Bricks:WaitForChild"Screech")
+for RoomNumber = LatestRoom.Value,100 do
+	if RoomNumber == ChaseStart.Value-1 or RoomNumber == 50 then
+		continue
+	end
+	Position += Vector3.yAxis*99
+	while workspace:FindFirstChild"RushMoving" or workspace:FindFirstChild"AmbushMoving" do
+		Wait()
+	end
+	Position -= Vector3.yAxis*99
+	local Room = CurrentRooms:WaitForChild(tostring(RoomNumber))
+	local Continue
+	while not Continue do
+		for _,Door in next,Room:GetChildren() do
+			if Door.Name == "Door" and Door:FindFirstChild"Sign" then
+				local DoorPart = Door:WaitForChild"Door"
+				MoveCameraTo = DoorPart.CFrame*CFrame.new(0,0,10)
+				local IsOpen = DoorPart:WaitForChild"OriginalCFrameValue"
+				if math.round(IsOpen.Value.X*1e3) == math.round(DoorPart.CFrame.X*1e3) and 1 < #Room:GetChildren() then
+					local Lock = Door:FindFirstChild"Lock"
+					if Lock then
+						if CurrentRooms:FindFirstChild(tostring(RoomNumber+1)) and RoomNumber ~= ChaseStart.Value-2 then
+							Continue = true
+							break
+						else
+							local Key = WaitForSignal(function()
+								Wait()
+								return Room:FindFirstChild("KeyObtain",true)
+							end)
+							Position = Key:WaitForChild"Hitbox".Position
+							Ping(4)
+							WaitForSignal(function()
+								fireproximityprompt(Key:WaitForChild"ModulePrompt")
+								return GetCharacter(Owner):WaitForChild("Key",Ping"")
+							end)
+						end
+					end
+					Position = DoorPart.Position
+					if Lock then
+						Ping(4)
+						WaitForSignal(function()
+							fireproximityprompt(Lock:WaitForChild"UnlockPrompt")
+							return WaitForSignal(LatestRoom.Changed,Ping"")
+						end)
+					else
+						VLevel,Touchable = 3,true
+						Wait(LatestRoom.Changed)
+						VLevel,Touchable = 0,false
+					end
+				end
+				Continue = true
+				break
+			end
+		end
+		Wait()
+	end
+end
+local Breaker = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorBreaker"
+Position = Breaker:WaitForChild"Door".Position
+Ping(4)
+local Continue
+while not Continue do
+	fireproximityprompt(Breaker:WaitForChild"ActivateEventPrompt")
+	Continue = WaitForSignal(Bricks:WaitForChild"EngageMinigame".OnClientEvent,.2)
+end
+Wait(38)
+Bricks:WaitForChild"EBF":FireServer()
+Ping(2)
+PressButton(MainUI:WaitForChild"MinigameBackout")
+Wait(.5)
+Position = CurrentRooms:WaitForChild"100":WaitForChild"ElevatorCar":WaitForChild"CollisionFloor".Position
+VLevel,Touchable = 5,true
+Ping(4)
+Destroy(TeleportLoop)
+Ping(10)
+local Statistics = Bricks:WaitForChild"Statistics"
+Statistics:FireServer()
+table.foreach(Wait(Statistics.OnClientEvent),print)
+Owner:Kick()
+Service"Gui":ClearError()
+task.delay(2,pcall,Service"Teleport".Teleport,Service"Teleport",game.PlaceId)
