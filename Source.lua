@@ -60,7 +60,7 @@ local function PressButton(Button)
 	end)
 end
 if LatestRoom.Value == 0 then
-	PressButton(WaitForSequence(MainUI,"ItemShop","Confirm")
+	PressButton(WaitForSequence(MainUI,"ItemShop","Confirm"))
 	Ping(2)
 	fireproximityprompt(WaitForSequence(CurrentRooms,"0","StarterElevator","Model","Model","SkipButton","SkipPrompt"))
 	Ping(10)
