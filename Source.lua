@@ -12,7 +12,7 @@ local function Load(Name)
 	end
 end
 Load"Conversio"()
-local Nil,Connect,Destroy,Wait,Service,Valid,WaitForSequence,RandomString,RandomBool,NilConvert,NewInstance,Create,DecodeJSON,WaitForSignal,Animate,Assert,GetCharacter,GetHumanoid,ConvertTime,GetContentText,Owner = Load"Utilitas""All"
+local Owner,Nil,Connect,Destroy,Wait,Service,Valid,WaitForSequence,RandomString,RandomBool,NilConvert,NewInstance,Create,DecodeJSON,WaitForSignal,Animate,Assert,GetCharacter,GetHumanoid,ConvertTime,GetContentText,WaitForChildOfClass = Load"Utilitas""All"
 local Position = Vector3.new(5,0,3270)
 local VLevel = 0
 local function RandomAxis()
