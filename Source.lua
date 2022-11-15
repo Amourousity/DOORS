@@ -29,7 +29,7 @@ local TeleportLoop = Connect(Service"Run".Heartbeat,function(Delta)
 		end
 	end
 	Wait(Service"Run".Stepped)
-	for _,BasePart in next,Character:GetDescendants() do
+	for _,BasePart in Character:GetDescendants() do
 		if BasePart:IsA"BasePart" then
 			BasePart.CanCollide,BasePart.CanTouch,BasePart.CanQuery = Touchable,Touchable,Touchable
 		end
@@ -79,7 +79,7 @@ for RoomNumber = LatestRoom.Value,100 do
 	local Room = CurrentRooms:WaitForChild(tostring(RoomNumber))
 	local Continue
 	while not Continue do
-		for _,Door in next,Room:GetChildren() do
+		for _,Door in Room:GetChildren() do
 			if Door.Name == "Door" and Door:FindFirstChild"Sign" then
 				local DoorPart = Door:WaitForChild"Door"
 				MoveCameraTo = DoorPart.CFrame*CFrame.new(0,0,10)
