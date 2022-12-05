@@ -1,5 +1,5 @@
 local function Load(Name)
-	local SourceName,Success,Result = ("Source.%s"):format(Name),pcall(game.HttpGet,game,("https://raw.githubusercontent.com/Amourousity/%s/main/Source.lua"):format(Name),true)
+	local SourceName,Success,Result = ("%s.lua"):format(Name),pcall(game.HttpGet,game,("https://raw.githubusercontent.com/Amourousity/%s/main/Source.lua"):format(Name),true)
 	if Success then
 		if writefile then
 			writefile(SourceName,Result)
@@ -12,7 +12,9 @@ local function Load(Name)
 	end
 end
 Load"Conversio"()
-local Owner,Nil,Connect,Destroy,Wait,Service,Valid,WaitForSequence,RandomString,RandomBool,NilConvert,NewInstance,Create,DecodeJSON,WaitForSignal,Animate,Assert,GetCharacter,GetHumanoid,ConvertTime,GetContentText,WaitForChildOfClass = Load"Utilitas""All"
+for Name,Function in Load"Utilitas"{} do
+	getfenv()[Name] = Function
+end
 local Position = Vector3.new(5,0,3270)
 local VLevel = 0
 local function RandomAxis()
